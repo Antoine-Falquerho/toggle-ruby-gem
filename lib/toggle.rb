@@ -3,6 +3,11 @@ require 'json'
 load 'lib/cache.rb'
 load 'lib/feature.rb'
 
+=begin
+	Toggle::Client is the main way to interact with the library
+	It create a new http connection to the service and managet GET and SET for a feature
+=end
+
 module Toggle
 	class Client		
 		expiration_time = 10

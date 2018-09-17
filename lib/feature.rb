@@ -1,3 +1,7 @@
+=begin
+	A simple Feature object that has a name and a state
+=end
+
 module Toggle
 	class Feature
 		attr_accessor :name, :state

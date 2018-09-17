@@ -1,3 +1,8 @@
+=begin
+	A ruby Caching solution to store on local the previous fetched features
+	Could be updated to use a different provider like Redis
+=end
+
 module Toggle
 	class Cache
 		@@storage = {}
