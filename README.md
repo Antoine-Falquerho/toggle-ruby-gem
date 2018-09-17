@@ -1,5 +1,8 @@
 # Toggle ruby gem
 
+
+![](howItWorks.gif)
+
 ## Build Gem
 
 	gem build toggle.gemspec
